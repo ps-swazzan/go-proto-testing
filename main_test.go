@@ -17,7 +17,7 @@ func TestProtobufEqual(t *testing.T) {
 	}
 
 	var person2 *tutorialpb.Person = &tutorialpb.Person{
-		Id:    2,
+		Id:    1,
 		Name:  "Saeid",
 		Email: "said.el-wazzan@ascent.io",
 	}
